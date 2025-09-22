@@ -121,13 +121,18 @@ body {
   gap: 1.5rem;
 }
 .feature-card {
-  background: rgba(255, 255, 255, 0.1);
-  padding: 2rem;
-  border-radius: 15px;
-  transition: transform 0.3s;
+    background: #1a1a1a;
+    padding: 2rem;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
 }
+
 .feature-card:hover {
-  transform: translateY(-10px);
+transform: translateY(-10px);
+border-color: #00d4ff;
 }
 
 /* Footer */
@@ -142,6 +147,14 @@ body {
 }
 .footer-section h3 {
   margin-bottom: 1rem;
+  color: #38bdf8;
+}
+
+.footer-section p {
+    width: fit-content;
+
+}
+.footer-section p:hover {
   color: #38bdf8;
 }
 .social-icons a {
